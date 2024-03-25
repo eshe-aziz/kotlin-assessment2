@@ -5,9 +5,9 @@ import javax.sound.sampled.Line
 fun main() {
     calculation()
     println(words("madam"))
-    println(volume(4/3, 3.14159, 14))
+    println(volume(4/3, 3.14159, 14*14*14))
     sentence()
-    sentence()
+
 }
 
 //Write and invoke one function that takes in an array of integers and returns these 3 values: sum, count and average of all the elements.
@@ -45,6 +45,5 @@ fun sentence(){
         println(b)
     }
 }
-
 
 
